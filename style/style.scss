@@ -1,0 +1,36 @@
+@import url(//db.onlinewebfonts.com/c/5e72186f2671cdfad7e0ca56b85262ef?family=HelveticaNeueLT+Arabic+75+Bold);
+
+    @font-face {
+        font-family: 'Helvitica Arabe';
+        src: url("../assets/fonts/HELVETICANEUELTARABIC-BOLD.otf");
+        font-weight: 900;
+    }
+    @font-face {
+        font-family: 'Helvitica Arabe';
+        src: url("../assets/fonts/HELVETICANEUELTARABIC-LIGHT.otf");
+        font-weight: 200;
+    }
+    @font-face {
+        font-family: 'Helvitica Arabe';
+        src: url("../assets/fonts/HELVETICANEUELTARABIC-ROMAN.otf");
+        font-weight: 500;
+    }
+ 
+    *{
+        font-family: 'Helvitica Arabe';
+    }
+    html{
+        scroll-behavior: smooth;
+      }
+body{
+    // @font-face {
+    //     font-family: 'HELVETICANEUELTARABIC-BOLD';
+    //     src: url("../assets/fonts/HELVETICANEUELTARABIC-BOLD.otf");
+    // }
+    // font-family: "HELVETICANEUELTARABIC-BOLD", sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #fff;
+    overflow-x: hidden;
+    
+}
