@@ -11,6 +11,7 @@
   <link href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Swiper's CSS -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
@@ -41,7 +42,7 @@
   <div class="h-3 w-full bg-green-500"></div>
   <!-- End //rectangle div -->
   <div class="checkicon mt-10 text-center text-[#03b062] mx-20 flex flex-col">
-    <ul class="px-56 flex-row gap-22 ">
+    <ul class="hadayhyd px-56 flex-row gap-22 ">
       <li class="flex flex-row">
         <img width="90px" src="./assets/img/CHECK BOTON.png" alt="icon success" />
         <span class="text-3xl font-bold my-auto">بغيتي تسافر لكن الوقت معندكش باش تقاد برنامج وتقلب على حجز الفندق
@@ -68,6 +69,31 @@
       <li class="li_bottom flex flex-row -mt-[20px] pb-16">
         <img width="90px" src="./assets/img/CHECK BOTON.png" alt="icon success" />
         <span class="text-3xl font-bold my-auto">كتبغي تسافر نتا وعائلتك ومزال مالقيتيش الفرصة المناسبة ؟</span>
+      </li>
+
+    </ul>
+    <ul class="hadaybqa px-56 flex-row gap-22 hidden">
+      <img class="imgUl" width="90px" src="./assets/img/CHECK BOTON.png" alt="icon success" />
+      <li class="flex flex-row">
+        <span class="text-3xl font-bold my-auto">- بغيتي تسافر لكن الوقت معندكش باش تقاد برنامج وتقلب على حجز الفندق
+          ؟</span>
+      </li>
+      <li class="flex flex-row -mt-[20px]">
+        <span class="text-3xl font-bold my-auto">- بغيتي تسافر لكن الوقت معندكش باش تقاد برنامج وتقلب على حجز الفندق
+          ؟</span>
+      </li>
+      <li class="flex flex-row -mt-[20px]">
+        <span class="text-3xl font-bold my-auto">- سافرتي من قبل مع وكالة وكان داكشي ناقص وفقدتي الثقة</span>
+      </li>
+      <li class="flex flex-row -mt-[20px]">
+        <span class="text-3xl font-bold my-auto">- بغيتي تسافر مع صحابك لي كينشطو معاك ولكن خدامين وعندهم التزامات
+          ؟</span>
+      </li>
+      <li class="flex flex-row -mt-[20px]">
+        <span class="text-3xl font-bold my-auto">- بغيتي تسافيرة زوينة ولكن معندكش فلوسها ؟</span>
+      </li>
+      <li class="li_bottom flex flex-row -mt-[20px] pb-16">
+        <span class="text-3xl font-bold my-auto">- كتبغي تسافر نتا وعائلتك ومزال مالقيتيش الفرصة المناسبة ؟</span>
       </li>
     </ul>
   </div>
@@ -102,17 +128,22 @@
   </div>
   <div class="section_3 text-center mt-40">
     <header>
-      <h1 class="bg-[#03b062]  text-white text-bold text-6xl text-center w-[15em] rounded-lg pt-4 pb-8 px-10 mx-auto">شاهد
+      <h1 class="bg-[#03b062]  text-white text-bold text-6xl text-center w-[15em] rounded-lg pt-4 pb-8 px-10 mx-auto">
+        شاهد
         الفيديو للتعرف على المخيم </h1>
-      <h1 class="bg-[#03b062] text-white text-bold text-6xl text-center w-[11em] mt-4 rounded-lg pt-4 pb-8 px-10 mx-auto">
+      <h1
+        class="bg-[#03b062] text-white text-bold text-6xl text-center w-[11em] mt-4 rounded-lg pt-4 pb-8 px-10 mx-auto">
         العربي الأول في العالم</h1>
     </header>
-    <div class="mt-12 flex justify-center">
+    <div class="video_pr mt-12 flex justify-center">
       <img width="1200px" src="./assets/img/imac.png" alt="">
-      <iframe class="absolute" width="800" height="500" src="https://www.youtube.com/embed/e9NeDAAG2XA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe class="absolute" width="800" height="500" src="https://www.youtube.com/embed/e9NeDAAG2XA"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
     </div>
   </div>
-  <div class="section_4mt-10">
+  <div class="section_4 mt-10">
     <img src="https://i.ibb.co/k39hB8C/bg-2-2.png" alt="">
   </div>
   <div class="section_5 mt-10">
@@ -168,7 +199,18 @@
       </div>
 
     </div>
+    <!-- //responsive -->
+    <div class="section_5_childACtive mt-20 grid hidden">
+      <div class="flex flex-col	">
+        <button class="btn-dow-pdf bg-[#ff921e] text-2xl w-[16rem] rounded-full relative bottom-8 mx-auto px-12 py-[0.85rem]">قم بتحميل البرنامج PDF</button>
+      <a class="btn-form" href="#form"><button
+        class="bg-[#03b062] text-2xl w-[16rem] rounded-full relative bottom-8 mx-auto px-10 py-[0.85rem]">اتصل
+        بنا <i class="fa-solid fa-angle-down"></i></button></a>
+      </div>
+    </div>
   </div>
+
+  
   <!-- //rectangle div -->
   <div class="h-3 w-full bg-green-500"></div>
   <!-- End //rectangle div -->
@@ -213,47 +255,74 @@
         <div class="carousel-item h-[40em] w-[22em] border-solid border-2 border-white rounded-xl">
           <!-- <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=8B7BCDC2" class="rounded-box" />
            -->
-           <iframe class="object-fill rounded-xl" width="100%" height="100%" src="https://www.youtube.com/embed/XQpMbiM5iu4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="object-fill rounded-xl" width="100%" height="100%"
+            src="https://www.youtube.com/embed/XQpMbiM5iu4" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
         <div class="carousel-item h-[40em] w-[22em] border-solid border-2 border-white rounded-xl">
           <!-- <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=8B7BCDC2" class="rounded-box" />
            -->
-           <iframe class="object-fill rounded-xl" width="100%" height="100%" src="https://www.youtube.com/embed/rR5DsvNdqlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="object-fill rounded-xl" width="100%" height="100%"
+            src="https://www.youtube.com/embed/rR5DsvNdqlY" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
         <div class="carousel-item h-[40em] w-[22em] border-solid border-2 border-white rounded-xl">
           <!-- <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=8B7BCDC2" class="rounded-box" />
            -->
-           <iframe class="object-fill rounded-xl" width="100%" height="100%" src="https://www.youtube.com/embed/ntwqK455J-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="object-fill rounded-xl" width="100%" height="100%"
+            src="https://www.youtube.com/embed/ntwqK455J-I" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
         <div class="carousel-item h-[40em] w-[22em] border-solid border-2 border-white rounded-xl">
           <!-- <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=8B7BCDC2" class="rounded-box" />
            -->
-           <iframe class="object-fill rounded-xl" width="100%" height="100%" src="https://www.youtube.com/embed/82OwVAKdTgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="object-fill rounded-xl" width="100%" height="100%"
+            src="https://www.youtube.com/embed/82OwVAKdTgI" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
         <div class="carousel-item h-[40em] w-[22em] border-solid border-2 border-white rounded-xl">
           <!-- <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=8B7BCDC2" class="rounded-box" />
            -->
-           <iframe class="object-fill rounded-xl" width="100%" height="100%" src="https://www.youtube.com/embed/O7yFeFGkjNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="object-fill rounded-xl" width="100%" height="100%"
+            src="https://www.youtube.com/embed/O7yFeFGkjNk" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
         <div class="carousel-item h-[40em] w-[22em] border-solid border-2 border-white rounded-xl">
           <!-- <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=8B7BCDC2" class="rounded-box" />
            -->
-           <iframe class="object-fill rounded-xl" width="100%" height="100%" src="https://www.youtube.com/embed/_yvE3t_0d3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="object-fill rounded-xl" width="100%" height="100%"
+            src="https://www.youtube.com/embed/_yvE3t_0d3k" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
         <div class="carousel-item h-[40em] w-[22em] border-solid border-2 border-white rounded-xl">
           <!-- <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=8B7BCDC2" class="rounded-box" />
            -->
-           <iframe class="object-fill rounded-xl" width="100%" height="100%" src="https://www.youtube.com/embed/bi2Q12pkTxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="object-fill rounded-xl" width="100%" height="100%"
+            src="https://www.youtube.com/embed/bi2Q12pkTxY" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
         <div class="carousel-item h-[40em] w-[22em] border-solid border-2 border-white rounded-xl">
           <!-- <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=8B7BCDC2" class="rounded-box" />
            -->
-           <iframe class="object-fill rounded-xl" width="100%" height="100%" src="https://www.youtube.com/embed/F3Y3JgbYgqU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="object-fill rounded-xl" width="100%" height="100%"
+            src="https://www.youtube.com/embed/F3Y3JgbYgqU" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
         <div class="carousel-item h-[40em] w-[22em] border-solid border-2 border-white rounded-xl">
           <!-- <img src="https://api.lorem.space/image/furniture?w=250&h=180&hash=8B7BCDC2" class="rounded-box" />
            -->
-           <iframe class="object-fill rounded-xl" width="100%" height="100%" src="https://www.youtube.com/embed/yuuDtqpk2dE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="object-fill rounded-xl" width="100%" height="100%"
+            src="https://www.youtube.com/embed/yuuDtqpk2dE" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -285,7 +354,8 @@
   </div>
   <div class="mt-20 mb-32" id="form">
     <header>
-      <h1 class="bg-[#03b062] text-white text-bold text-6xl text-center w-[9em] mt-4 rounded-lg pt-4 pb-8 px-10 mx-auto">
+      <h1
+        class="bg-[#03b062] text-white text-bold text-6xl text-center w-[9em] mt-4 rounded-lg pt-4 pb-8 px-10 mx-auto">
         استمارة المشاركة</h1>
     </header>
     <form class="w-full max-w-lg mx-auto mt-20 text-right ">
