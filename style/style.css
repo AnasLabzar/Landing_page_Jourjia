@@ -1,24 +1,24 @@
 @import url(//db.onlinewebfonts.com/c/5e72186f2671cdfad7e0ca56b85262ef?family=HelveticaNeueLT+Arabic+75+Bold);
 @font-face {
-  font-family: 'Helvitica Arabe';
+  font-family: "Helvitica Arabe";
   src: url("../assets/fonts/HELVETICANEUELTARABIC-BOLD.otf");
   font-weight: 900;
 }
 
 @font-face {
-  font-family: 'Helvitica Arabe';
+  font-family: "Helvitica Arabe";
   src: url("../assets/fonts/HELVETICANEUELTARABIC-LIGHT.otf");
   font-weight: 200;
 }
-3
+
 @font-face {
-  font-family: 'Helvitica Arabe';
+  font-family: "Helvitica Arabe";
   src: url("../assets/fonts/HELVETICANEUELTARABIC-ROMAN.otf");
   font-weight: 500;
 }
 
 * {
-  font-family: 'Helvitica Arabe';
+  font-family: "Helvitica Arabe";
 }
 
 html {
@@ -30,5 +30,99 @@ body {
   color: white;
   background-color: #fff;
   overflow-x: hidden;
+}
+
+@media (max-width: 1300px) {
+  body nav {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  body nav p {
+    font-size: 30px;
+  }
+  body .checkicon {
+    margin: 2rem 1rem;
+    padding: 2rem 1rem;
+  }
+  body .checkicon ul {
+    padding: 0rem 0;
+  }
+  body .checkicon ul .li_bottom {
+    padding-bottom: 0;
+  }
+  body .section_2 .section_2_child .text_2 p {
+    font-size: 28px;
+  }
+  body .section_2 .section_2_child2 p {
+    font-size: 28px;
+  }
+  body .section_3 header h1 {
+    font-size: 2.75rem;
+  }
+  body .section_5 .section_5_child .section_5_child_1 .section_5_child_1_1 {
+    gap: 10%;
+  }
+}
+
+@media (max-width: 390px) {
+  body nav {
+    padding-top: 0px !important;
+    padding-bottom: 20px !important;
+  }
+  body nav p span {
+    font-size: 28px !important;
+    line-height: 10px;
+  }
+  body .titlee {
+    height: 180px !important;
+  }
+  body .titlee h1 {
+    padding-top: 20px !important;
+    font-size: 32px !important;
+  }
+  body .titlee p {
+    font-size: 18px !important;
+    margin-top: 20px !important;
+  }
+  body .titlee .button {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 1rem !important;
+    margin: 10px auto !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  body .titlee .button button {
+    padding: 5px !important;
+    font-size: 18px !important;
+    margin: 0px auto !important;
+    width: 160px;
+  }
+  body .checkicon {
+    margin: 2rem 1rem;
+    padding: 2rem 1rem;
+  }
+  body .checkicon ul {
+    padding: 0rem 0;
+  }
+  body .checkicon ul .li_bottom {
+    padding-bottom: 0;
+  }
+  body .section_2 .section_2_child .text_2 p {
+    font-size: 28px;
+  }
+  body .section_2 .section_2_child2 p {
+    font-size: 28px;
+  }
+  body .section_3 header h1 {
+    font-size: 2.75rem;
+  }
+  body .section_5 .section_5_child .section_5_child_1 .section_5_child_1_1 {
+    gap: 10%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
