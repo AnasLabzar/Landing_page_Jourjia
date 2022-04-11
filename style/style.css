@@ -263,6 +263,9 @@ body {
   body .section_7 .section_7_child .section_7_child_2 img {
     width: 50%;
   }
+  body #form {
+    padding: 0 25px !important;
+  }
   body #form header h1 {
     font-size: 20px;
     padding: 5px 10px 10px 10px;
@@ -274,7 +277,10 @@ body {
     font-size: 30px;
     font-weight: 900;
   }
-  body .section_8 .mx-44 .grid {
+  body .section_8 .section_8_child {
+    margin: 25px 0 !important;
+  }
+  body .section_8 .section_8_child .section_8_child_1 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -282,9 +288,17 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin: 0 10px !important;
   }
-  body .section_8 .mx-44 .grid .row-span-3 img {
+  body .section_8 .section_8_child .section_8_child_1 .row-span-3 img {
     max-width: 200px !important;
+    margin: 0 auto !important;
+  }
+  body .section_8 .section_8_child .section_8_child_1 .row-span-2 {
+    padding: 10px !important;
+  }
+  body .section_8 .section_8_child .section_8_child_1 .row-span-2 p {
+    font-size: 20px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

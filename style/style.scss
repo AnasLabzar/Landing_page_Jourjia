@@ -308,14 +308,14 @@ $breakpoint-iphone: 390px;
         position: relative !important;
         top: 30px !important;
 
-        .tuto{
-            display: contents;
+        .tuto {
+          display: contents;
         }
       }
     }
 
-    .cv{
-        margin-top: 40px;
+    .cv {
+      margin-top: 40px;
     }
 
     .section_6 {
@@ -358,6 +358,7 @@ $breakpoint-iphone: 390px;
       }
     }
     #form {
+        padding: 0 25px !important;
       header {
         h1 {
           font-size: 20px;
@@ -367,7 +368,7 @@ $breakpoint-iphone: 390px;
     }
 
     .section_8 {
-        text-align: center;
+      text-align: center;
 
       header {
         h1 {
@@ -376,17 +377,29 @@ $breakpoint-iphone: 390px;
         }
       }
 
-      .mx-44{
-          .grid{
-              display: flex;
-              flex-direction: column;
+      .section_8_child {
+        margin: 25px 0 !important;
 
-              .row-span-3{
-                  img{
-                      max-width: 200px !important;
-                  }
-              }
+        .section_8_child_1 {
+          display: flex;
+          flex-direction: column;
+          margin: 0 10px !important;
+
+          .row-span-3 {
+            img {
+              max-width: 200px !important;
+              margin: 0 auto !important;
+            }
           }
+
+          .row-span-2 {
+              padding: 10px !important;
+
+            p {
+              font-size: 20px !important;
+            }
+          }
+        }
       }
     }
   }
