@@ -134,6 +134,12 @@ body {
   body .checkicon .hadaybqa .li_bottom {
     padding-bottom: 0;
   }
+  body .hl .ppone {
+    display: none;
+  }
+  body .hl .pone {
+    display: contents !important;
+  }
   body .section_2 header h1 {
     font-size: 2rem;
   }
