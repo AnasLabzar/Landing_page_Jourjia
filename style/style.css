@@ -187,7 +187,26 @@ body {
   body .section_5 .section_5_childACtive {
     display: contents;
   }
-  body .section_5 .section_5_childACtive .btn-dow-pdf {
+  body .section_5 .section_5_childACtive .flipbook {
+    display: contents;
+  }
+  body .section_5 .section_5_childACtive .flipbook .flipbookkk {
+    margin-top: 5vh !important;
+    margin-bottom: 5vh !important;
+  }
+  body .section_5 .section_5_childACtive .flipbook .flipbookkk-title {
+    color: #ffa200;
+    text-align: center;
+    font-size: 5vw !important;
+    font-family: "Poppins", Sans-serif;
+    font-weight: 900;
+    line-height: 75px;
+    text-shadow: 1px 3px 0px #373737;
+  }
+  body .section_5 .section_5_childACtive .dwn-btn {
+    margin: 0 auto !important;
+  }
+  body .section_5 .section_5_childACtive .dwn-btn .btn-dow-pdf {
     zoom: 65%;
     margin-bottom: 20px;
     margin-top: 80px;
